@@ -1,0 +1,2 @@
+En la carpeta PHP/Functions lleva todas las funcionalidades para acceder a la base de datos
+para que el manejo de la sesión sea externo a la información del diseño html

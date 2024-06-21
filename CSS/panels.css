@@ -1,0 +1,32 @@
+/**Diseño CSS de los paneles de inicio*/
+.teacher-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.panel-item {
+    background: linear-gradient(135deg, #ffffff, #34c5ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.panel-item:hover {
+    background: linear-gradient(135deg, #CFBDED, #563e7d);
+    color: #fff;
+    transform: scale(1.05);
+}

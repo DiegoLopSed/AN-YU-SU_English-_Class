@@ -1,0 +1,2 @@
+En esta carpeta vienen todos los css que se utilizaron en el proyecto
+para poder tener un diseño llamativo en la interfaz

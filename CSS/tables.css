@@ -1,0 +1,36 @@
+/** Estilos css del Contenedor de las tablas */
+.container-table {
+    background: linear-gradient(135deg, #291150, #bf98ff);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.container-table h2 {
+    color: #ffffff;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para las celdas */
+th,
+td {
+    font-size: larger;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos para el encabezado */
+th {
+    color: #ffffff;
+    background-color: #9909b5;
+    font-weight: bold;
+}
+

@@ -1,0 +1,3 @@
+La carpeta PHP tiene la mayor parte de los formularios para hacer el registro de 
+los datos necesarios dentro de la base de datos con algunas funciones PHP
+dentro del contenido html

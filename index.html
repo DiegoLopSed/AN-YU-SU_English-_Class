@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Web Page</title>
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenidos a ANYUSU</h1>
+            <nav>
+                <ul>
+                    <li><a href="PHP/profesor_registro.html">Registrarse Prof.</a></li>
+                    <li><a href="PHP/alumno_registro.php">Registrarse Alumn.</a></li>
+                    <li><a href="PHP/lista_clases.php">Clases</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Bienvenido a AN-YU-SU English Class</h2>
+            <p>Mejora yu nivel de inglés con nosotros </p>
+        </div>
+    </main>
+
+    <center>
+        <div class="login-container">
+            <h2>Iniciar Sesión</h2>
+            <form action="PHP/Functions/login.php" method="post">
+                <input type="text" name="email" placeholder="Correo electrónico" required><br>
+                <input type="password" name="contraseña" placeholder="Contraseña" required><br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </center>
+
+
+    <br>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AN-YU-SU. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
